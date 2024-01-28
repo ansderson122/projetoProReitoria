@@ -1,0 +1,17 @@
+
+#agenda-container{
+    margin-top: 50px;
+}
+
+
+
+.event-summary{
+    display: flex;
+    padding-left: 20px;
+}
+
+.date-label{
+    padding-left: 10px;
+    background-color: #e5ecf9;
+}
+

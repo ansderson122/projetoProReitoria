@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/agenda.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
@@ -52,12 +53,872 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="O que você procura?"
+                        aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
+
+    <section class="container" id="agenda-container">
+        <h3>Agenda da Pró-Reitora</h3>
+
+
+
+        <div id="eventContainer1">
+            <div class="day" id="day-20231120">
+                <div class="date-label">segunda-feira, 20 de novembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="80-20231120" toggle-details=""><span class="event-time"
+                            alt="seg., 20 de novembro de 2023, 10:00 – 12:00"
+                            title="seg., 20 de novembro de 2023, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-80-20231120"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231121">
+                <div class="date-label">terça-feira, 21 de novembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="81-20231121" toggle-details=""><span class="event-time"
+                            alt="ter., 21 de novembro de 2023, 09:00 – 12:00"
+                            title="ter., 21 de novembro de 2023, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-81-20231121"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="82-20231121" toggle-details=""><span class="event-time"
+                            alt="ter., 21 de novembro de 2023, 14:30 – 16:30"
+                            title="ter., 21 de novembro de 2023, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-82-20231121"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231122">
+                <div class="date-label">quarta-feira, 22 de novembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="83-20231122" toggle-details=""><span class="event-time"
+                            alt="qua., 22 de novembro de 2023, 15:30 – 17:00"
+                            title="qua., 22 de novembro de 2023, 15:30 – 17:00">15:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião Regional Nordeste
+                                Fonaprace</span></div>
+                    </div>
+                    <div class="event-details" id="details-83-20231122"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231127">
+                <div class="date-label">segunda-feira, 27 de novembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="84-20231127" toggle-details=""><span class="event-time"
+                            alt="seg., 27 de novembro de 2023, 10:00 – 12:00"
+                            title="seg., 27 de novembro de 2023, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-84-20231127"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231128">
+                <div class="date-label">terça-feira, 28 de novembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="85-20231128" toggle-details=""><span class="event-time"
+                            alt="ter., 28 de novembro de 2023, 09:00 – 12:00"
+                            title="ter., 28 de novembro de 2023, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-85-20231128"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="86-20231128" toggle-details=""><span class="event-time"
+                            alt="ter., 28 de novembro de 2023, 14:30 – 16:30"
+                            title="ter., 28 de novembro de 2023, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-86-20231128"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231204">
+                <div class="date-label">segunda-feira, 4 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="87-20231204" toggle-details=""><span class="event-time"
+                            alt="seg., 4 de dezembro de 2023, 10:00 – 12:00"
+                            title="seg., 4 de dezembro de 2023, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-87-20231204"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231205">
+                <div class="date-label">terça-feira, 5 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="88-20231205" toggle-details=""><span class="event-time"
+                            alt="ter., 5 de dezembro de 2023, 09:00 – 12:00"
+                            title="ter., 5 de dezembro de 2023, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-88-20231205"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="89-20231205" toggle-details=""><span class="event-time"
+                            alt="ter., 5 de dezembro de 2023, 14:30 – 16:30"
+                            title="ter., 5 de dezembro de 2023, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-89-20231205"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231211">
+                <div class="date-label">segunda-feira, 11 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="90-20231211" toggle-details=""><span class="event-time"
+                            alt="seg., 11 de dezembro de 2023, 10:00 – 12:00"
+                            title="seg., 11 de dezembro de 2023, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-90-20231211"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231212">
+                <div class="date-label">terça-feira, 12 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="91-20231212" toggle-details=""><span class="event-time"
+                            alt="ter., 12 de dezembro de 2023, 09:00 – 12:00"
+                            title="ter., 12 de dezembro de 2023, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-91-20231212"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="92-20231212" toggle-details=""><span class="event-time"
+                            alt="ter., 12 de dezembro de 2023, 14:30 – 16:30"
+                            title="ter., 12 de dezembro de 2023, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-92-20231212"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231218">
+                <div class="date-label">segunda-feira, 18 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="46-20231218" toggle-details=""><span class="event-time"
+                            alt="seg., 18 de dezembro de 2023, 10:00 – 12:00"
+                            title="seg., 18 de dezembro de 2023, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-46-20231218"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231219">
+                <div class="date-label">terça-feira, 19 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="47-20231219" toggle-details=""><span class="event-time"
+                            alt="ter., 19 de dezembro de 2023, 09:00 – 12:00"
+                            title="ter., 19 de dezembro de 2023, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-47-20231219"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="48-20231219" toggle-details=""><span class="event-time"
+                            alt="ter., 19 de dezembro de 2023, 14:30 – 16:30"
+                            title="ter., 19 de dezembro de 2023, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-48-20231219"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231225">
+                <div class="date-label">segunda-feira, 25 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="49-20231225" toggle-details=""><span class="event-time"
+                            alt="seg., 25 de dezembro de 2023, 10:00 – 12:00"
+                            title="seg., 25 de dezembro de 2023, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-49-20231225"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231226">
+                <div class="date-label">terça-feira, 26 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="50-20231226" toggle-details=""><span class="event-time"
+                            alt="ter., 26 de dezembro de 2023, 09:00 – 12:00"
+                            title="ter., 26 de dezembro de 2023, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-50-20231226"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="51-20231226" toggle-details=""><span class="event-time"
+                            alt="ter., 26 de dezembro de 2023, 14:30 – 16:30"
+                            title="ter., 26 de dezembro de 2023, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-51-20231226"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20231227">
+                <div class="date-label">quarta-feira, 27 de dezembro de 2023</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="52-20231227" toggle-details=""><span class="event-time"
+                            alt="qua., 27 de dezembro de 2023, 15:30 – 17:00"
+                            title="qua., 27 de dezembro de 2023, 15:30 – 17:00">15:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião Regional Nordeste
+                                Fonaprace</span></div>
+                    </div>
+                    <div class="event-details" id="details-52-20231227"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240101">
+                <div class="date-label">segunda-feira, 1 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="1-20240101" toggle-details=""><span class="event-time"
+                            alt="seg., 1 de janeiro, 10:00 – 12:00"
+                            title="seg., 1 de janeiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-1-20240101"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240102">
+                <div class="date-label">terça-feira, 2 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="3-20240102" toggle-details=""><span class="event-time"
+                            alt="ter., 2 de janeiro, 09:00 – 12:00"
+                            title="ter., 2 de janeiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-3-20240102"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="5-20240102" toggle-details=""><span class="event-time"
+                            alt="ter., 2 de janeiro, 14:30 – 16:30"
+                            title="ter., 2 de janeiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-5-20240102"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240108">
+                <div class="date-label">segunda-feira, 8 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="7-20240108" toggle-details=""><span class="event-time"
+                            alt="seg., 8 de janeiro, 10:00 – 12:00"
+                            title="seg., 8 de janeiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-7-20240108"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240109">
+                <div class="date-label">terça-feira, 9 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="9-20240109" toggle-details=""><span class="event-time"
+                            alt="ter., 9 de janeiro, 09:00 – 12:00"
+                            title="ter., 9 de janeiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-9-20240109"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="11-20240109" toggle-details=""><span class="event-time"
+                            alt="ter., 9 de janeiro, 14:30 – 16:30"
+                            title="ter., 9 de janeiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-11-20240109"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240115">
+                <div class="date-label">segunda-feira, 15 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="13-20240115" toggle-details=""><span class="event-time"
+                            alt="seg., 15 de janeiro, 10:00 – 12:00"
+                            title="seg., 15 de janeiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-13-20240115"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240116">
+                <div class="date-label">terça-feira, 16 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="15-20240116" toggle-details=""><span class="event-time"
+                            alt="ter., 16 de janeiro, 09:00 – 12:00"
+                            title="ter., 16 de janeiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-15-20240116"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="17-20240116" toggle-details=""><span class="event-time"
+                            alt="ter., 16 de janeiro, 14:30 – 16:30"
+                            title="ter., 16 de janeiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-17-20240116"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240122">
+                <div class="date-label">segunda-feira, 22 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="19-20240122" toggle-details=""><span class="event-time"
+                            alt="seg., 22 de janeiro, 10:00 – 12:00"
+                            title="seg., 22 de janeiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-19-20240122"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240123">
+                <div class="date-label">terça-feira, 23 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="21-20240123" toggle-details=""><span class="event-time"
+                            alt="ter., 23 de janeiro, 09:00 – 12:00"
+                            title="ter., 23 de janeiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-21-20240123"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="25-20240123" toggle-details=""><span class="event-time"
+                            alt="ter., 23 de janeiro, 14:30 – 16:30"
+                            title="ter., 23 de janeiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-25-20240123"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240124">
+                <div class="date-label">quarta-feira, 24 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="23-20240124" toggle-details=""><span class="event-time"
+                            alt="qua., 24 de janeiro, 15:30 – 17:00"
+                            title="qua., 24 de janeiro, 15:30 – 17:00">15:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião Regional Nordeste
+                                Fonaprace</span></div>
+                    </div>
+                    <div class="event-details" id="details-23-20240124"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240129">
+                <div class="date-label">segunda-feira, 29 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="27-20240129" toggle-details=""><span class="event-time"
+                            alt="seg., 29 de janeiro, 10:00 – 12:00"
+                            title="seg., 29 de janeiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="day" id="day-20240130">
+                <div class="date-label">terça-feira, 30 de janeiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="29-20240130" toggle-details=""><span class="event-time"
+                            alt="ter., 30 de janeiro, 09:00 – 12:00"
+                            title="ter., 30 de janeiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+             
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="31-20240130" toggle-details=""><span class="event-time"
+                            alt="ter., 30 de janeiro, 14:30 – 16:30"
+                            title="ter., 30 de janeiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+           
+                </div>
+            </div>
+            <div class="day" id="day-20240205">
+                <div class="date-label">segunda-feira, 5 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="33-20240205" toggle-details=""><span class="event-time"
+                            alt="seg., 5 de fevereiro, 10:00 – 12:00"
+                            title="seg., 5 de fevereiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-33-20240205"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240206">
+                <div class="date-label">terça-feira, 6 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="34-20240206" toggle-details=""><span class="event-time"
+                            alt="ter., 6 de fevereiro, 09:00 – 12:00"
+                            title="ter., 6 de fevereiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-34-20240206" style="display: none;">
+                        <div class="event-details-inner">
+                            <div class="detail-item"><span class="event-details-label">Quando</span><span
+                                    class="event-when">ter., 6 de fevereiro, 09:00 – 12:00</span></div>
+                            <div class="event-links"><a
+                                    href="https://www.google.com/calendar/event?eid=cTJxb3IwNXVrcGE4ZXZ2dXNwc2RmMjZ2Z29fMjAyNDAyMDZUMTIwMDAwWiBjX29xbTJsaW9iNW82a3RlOTdtbmNxMjdvaHVnQGc&amp;ctz=America/Fortaleza"
+                                    target="_blank">mais detalhes»</a>&nbsp;&nbsp;<a
+                                    href="https://calendar.google.com/calendar/r/eventedit/copy/cTJxb3IwNXVrcGE4ZXZ2dXNwc2RmMjZ2Z29fMjAyNDAyMDZUMTIwMDAwWiBjX29xbTJsaW9iNW82a3RlOTdtbmNxMjdvaHVnQGc"
+                                    target="_blank">copiar para minha agenda</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="35-20240206" toggle-details=""><span class="event-time"
+                            alt="ter., 6 de fevereiro, 14:30 – 16:30"
+                            title="ter., 6 de fevereiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-35-20240206" style="display: none;">
+                        <div class="event-details-inner">
+                            <div class="detail-item"><span class="event-details-label">Quando</span><span
+                                    class="event-when">ter., 6 de fevereiro, 14:30 – 16:30</span></div>
+                            <div class="event-links"><a
+                                    href="https://www.google.com/calendar/event?eid=M2lzZjJuNmhxbTFjbXFjcHJuNXFjNTR0aTJfMjAyNDAyMDZUMTczMDAwWiBjX29xbTJsaW9iNW82a3RlOTdtbmNxMjdvaHVnQGc&amp;ctz=America/Fortaleza"
+                                    target="_blank">mais detalhes»</a>&nbsp;&nbsp;<a
+                                    href="https://calendar.google.com/calendar/r/eventedit/copy/M2lzZjJuNmhxbTFjbXFjcHJuNXFjNTR0aTJfMjAyNDAyMDZUMTczMDAwWiBjX29xbTJsaW9iNW82a3RlOTdtbmNxMjdvaHVnQGc"
+                                    target="_blank">copiar para minha agenda</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="day" id="day-20240212">
+                <div class="date-label">segunda-feira, 12 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="36-20240212" toggle-details=""><span class="event-time"
+                            alt="seg., 12 de fevereiro, 10:00 – 12:00"
+                            title="seg., 12 de fevereiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-36-20240212"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240213">
+                <div class="date-label">terça-feira, 13 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="37-20240213" toggle-details=""><span class="event-time"
+                            alt="ter., 13 de fevereiro, 09:00 – 12:00"
+                            title="ter., 13 de fevereiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-37-20240213"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="38-20240213" toggle-details=""><span class="event-time"
+                            alt="ter., 13 de fevereiro, 14:30 – 16:30"
+                            title="ter., 13 de fevereiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-38-20240213"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240219">
+                <div class="date-label">segunda-feira, 19 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="39-20240219" toggle-details=""><span class="event-time"
+                            alt="seg., 19 de fevereiro, 10:00 – 12:00"
+                            title="seg., 19 de fevereiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-39-20240219"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240220">
+                <div class="date-label">terça-feira, 20 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="40-20240220" toggle-details=""><span class="event-time"
+                            alt="ter., 20 de fevereiro, 09:00 – 12:00"
+                            title="ter., 20 de fevereiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-40-20240220"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="41-20240220" toggle-details=""><span class="event-time"
+                            alt="ter., 20 de fevereiro, 14:30 – 16:30"
+                            title="ter., 20 de fevereiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-41-20240220"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240226">
+                <div class="date-label">segunda-feira, 26 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="42-20240226" toggle-details=""><span class="event-time"
+                            alt="seg., 26 de fevereiro, 10:00 – 12:00"
+                            title="seg., 26 de fevereiro, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-42-20240226"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240227">
+                <div class="date-label">terça-feira, 27 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="43-20240227" toggle-details=""><span class="event-time"
+                            alt="ter., 27 de fevereiro, 09:00 – 12:00"
+                            title="ter., 27 de fevereiro, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-43-20240227"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="44-20240227" toggle-details=""><span class="event-time"
+                            alt="ter., 27 de fevereiro, 14:30 – 16:30"
+                            title="ter., 27 de fevereiro, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-44-20240227"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240228">
+                <div class="date-label">quarta-feira, 28 de fevereiro</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="45-20240228" toggle-details=""><span class="event-time"
+                            alt="qua., 28 de fevereiro, 15:30 – 17:00"
+                            title="qua., 28 de fevereiro, 15:30 – 17:00">15:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião Regional Nordeste
+                                Fonaprace</span></div>
+                    </div>
+                    <div class="event-details" id="details-45-20240228"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240304">
+                <div class="date-label">segunda-feira, 4 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="53-20240304" toggle-details=""><span class="event-time"
+                            alt="seg., 4 de março, 10:00 – 12:00" title="seg., 4 de março, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-53-20240304"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240305">
+                <div class="date-label">terça-feira, 5 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="54-20240305" toggle-details=""><span class="event-time"
+                            alt="ter., 5 de março, 09:00 – 12:00" title="ter., 5 de março, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-54-20240305"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="55-20240305" toggle-details=""><span class="event-time"
+                            alt="ter., 5 de março, 14:30 – 16:30" title="ter., 5 de março, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-55-20240305"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240311">
+                <div class="date-label">segunda-feira, 11 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="56-20240311" toggle-details=""><span class="event-time"
+                            alt="seg., 11 de março, 10:00 – 12:00" title="seg., 11 de março, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-56-20240311"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240312">
+                <div class="date-label">terça-feira, 12 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="57-20240312" toggle-details=""><span class="event-time"
+                            alt="ter., 12 de março, 09:00 – 12:00" title="ter., 12 de março, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-57-20240312"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="58-20240312" toggle-details=""><span class="event-time"
+                            alt="ter., 12 de março, 14:30 – 16:30" title="ter., 12 de março, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-58-20240312"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240318">
+                <div class="date-label">segunda-feira, 18 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="59-20240318" toggle-details=""><span class="event-time"
+                            alt="seg., 18 de março, 10:00 – 12:00" title="seg., 18 de março, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-59-20240318"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240319">
+                <div class="date-label">terça-feira, 19 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="60-20240319" toggle-details=""><span class="event-time"
+                            alt="ter., 19 de março, 09:00 – 12:00" title="ter., 19 de março, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-60-20240319"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="61-20240319" toggle-details=""><span class="event-time"
+                            alt="ter., 19 de março, 14:30 – 16:30" title="ter., 19 de março, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-61-20240319"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240325">
+                <div class="date-label">segunda-feira, 25 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="62-20240325" toggle-details=""><span class="event-time"
+                            alt="seg., 25 de março, 10:00 – 12:00" title="seg., 25 de março, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-62-20240325"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240326">
+                <div class="date-label">terça-feira, 26 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="63-20240326" toggle-details=""><span class="event-time"
+                            alt="ter., 26 de março, 09:00 – 12:00" title="ter., 26 de março, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-63-20240326"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="64-20240326" toggle-details=""><span class="event-time"
+                            alt="ter., 26 de março, 14:30 – 16:30" title="ter., 26 de março, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-64-20240326"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240327">
+                <div class="date-label">quarta-feira, 27 de março</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="65-20240327" toggle-details=""><span class="event-time"
+                            alt="qua., 27 de março, 15:30 – 17:00" title="qua., 27 de março, 15:30 – 17:00">15:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião Regional Nordeste
+                                Fonaprace</span></div>
+                    </div>
+                    <div class="event-details" id="details-65-20240327"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240401">
+                <div class="date-label">segunda-feira, 1 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="66-20240401" toggle-details=""><span class="event-time"
+                            alt="seg., 1 de abril, 10:00 – 12:00" title="seg., 1 de abril, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-66-20240401"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240402">
+                <div class="date-label">terça-feira, 2 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="67-20240402" toggle-details=""><span class="event-time"
+                            alt="ter., 2 de abril, 09:00 – 12:00" title="ter., 2 de abril, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-67-20240402"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="68-20240402" toggle-details=""><span class="event-time"
+                            alt="ter., 2 de abril, 14:30 – 16:30" title="ter., 2 de abril, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-68-20240402"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240408">
+                <div class="date-label">segunda-feira, 8 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="69-20240408" toggle-details=""><span class="event-time"
+                            alt="seg., 8 de abril, 10:00 – 12:00" title="seg., 8 de abril, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-69-20240408"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240409">
+                <div class="date-label">terça-feira, 9 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="70-20240409" toggle-details=""><span class="event-time"
+                            alt="ter., 9 de abril, 09:00 – 12:00" title="ter., 9 de abril, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-70-20240409"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="71-20240409" toggle-details=""><span class="event-time"
+                            alt="ter., 9 de abril, 14:30 – 16:30" title="ter., 9 de abril, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-71-20240409"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240415">
+                <div class="date-label">segunda-feira, 15 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="72-20240415" toggle-details=""><span class="event-time"
+                            alt="seg., 15 de abril, 10:00 – 12:00" title="seg., 15 de abril, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-72-20240415"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240416">
+                <div class="date-label">terça-feira, 16 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="73-20240416" toggle-details=""><span class="event-time"
+                            alt="ter., 16 de abril, 09:00 – 12:00" title="ter., 16 de abril, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-73-20240416"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="74-20240416" toggle-details=""><span class="event-time"
+                            alt="ter., 16 de abril, 14:30 – 16:30" title="ter., 16 de abril, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-74-20240416"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240422">
+                <div class="date-label">segunda-feira, 22 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="75-20240422" toggle-details=""><span class="event-time"
+                            alt="seg., 22 de abril, 10:00 – 12:00" title="seg., 22 de abril, 10:00 – 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-75-20240422"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240423">
+                <div class="date-label">terça-feira, 23 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="76-20240423" toggle-details=""><span class="event-time"
+                            alt="ter., 23 de abril, 09:00 – 12:00" title="ter., 23 de abril, 09:00 – 12:00">09:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial - NAMAAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-76-20240423"></div>
+                </div>
+                <div class="event last-event">
+                    <div class="event-summary" id="77-20240423" toggle-details=""><span class="event-time"
+                            alt="ter., 23 de abril, 14:30 – 16:30" title="ter., 23 de abril, 14:30 – 16:30">14:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial Caie/PRAE</span></div>
+                    </div>
+                    <div class="event-details" id="details-77-20240423"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240424">
+                <div class="date-label">quarta-feira, 24 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="78-20240424" toggle-details=""><span class="event-time"
+                            alt="qua., 24 de abril, 15:30 – 17:00" title="qua., 24 de abril, 15:30 – 17:00">15:30</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião Regional Nordeste
+                                Fonaprace</span></div>
+                    </div>
+                    <div class="event-details" id="details-78-20240424"></div>
+                </div>
+            </div>
+            <div class="day" id="day-20240429">
+                <div class="date-label">segunda-feira, 29 de abril</div>
+                <div class="event first-event">
+                    <div class="event-summary" id="79-20240429" toggle-details=""><span class="event-time"
+                            alt="seg., 29 de abril, 10:00 - 12:00" title="seg., 29 de abril, 10:00 - 12:00">10:00</span>
+                        <div class="title-wrapper"><span class="event-reply-status">&nbsp;</span><span
+                                class="event-title" style="color: #2952A3;">Reunião setorial CADD</span></div>
+                    </div>
+                    <div class="event-details" id="details-79-20240429"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+
+
 
 </body>
 
