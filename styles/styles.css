@@ -7,4 +7,16 @@
 
 #navegacao{
     background-color: #fffdf6;
+    
+}
+
+#navegacao>.container-fluid>div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#navegacao>.container-fluid>#navbarTogglerDemo02{
+    display: flex;
+    justify-content: end;
 }
